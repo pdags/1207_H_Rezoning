@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Placemark>
+		<name>1207 H ST NE NC-15 Zoning</name>
+		<LookAt>
+			<longitude>-76.989216</longitude>
+			<latitude>38.899990</latitude>
+			<altitude>15</altitude>
+			<heading>215</heading>
+			<tilt>60</tilt>
+			<range>250</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<Polygon>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>-76.990062,38.899853,29.8704
+						-76.988763,38.899858,29.8704
+						-76.988763,38.900101,29.8704
+						-76.990062,38.900101,29.8704
+						-76.990062,38.899853,29.8704
+				 </coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</kml>
