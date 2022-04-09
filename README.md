@@ -9,7 +9,7 @@ NC-14 to NC-15 models for rezoning of 1207 H ST NE.  Hopefully this repository c
 4. EDZ has a hearing and recommends the rezoning
 5. Zoning map updated with a "Pending" zoning
 6. Rezoning goes to the full ANC for a hearing
-7. Request approved or denied at this point
+7. ANC sends a letter of support to ZC (zoning committee maybe? ) to change the zoning.  Maybe some other action?
 
 ## Summary of zoning changes
 The rezoning based on the map amendment would trigger IZ+ zoning so we'll use Inclusionary Zoning numbers for comparison.
@@ -18,7 +18,7 @@ The rezoning based on the map amendment would trigger IZ+ zoning so we'll use In
 | ---------------------- | --------------- | ---------------- |
 | Floor Area Ratio (FAR) | 3.0             | 4.8              |
 | Base height            | 50 feet         | 65 feet          |
-| Overlay bonus          | 5 feet          | 5 feet           | 
+| Overlay height bonus   | +5 feet         | +5 feet          | 
 | Penthouse (1 story)    | 12 feet         | 12 feet          |
 | Mechanical (+1 story)  | 15 feet         | 18.5 feet        |
 | Total Height           | 82 feet         | 100.5 feet       |
