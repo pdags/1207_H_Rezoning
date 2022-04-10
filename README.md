@@ -1,6 +1,7 @@
 # Rezoning 1207 H ST NE from NC-14 to NC-15
 NC-14 to NC-15 models for rezoning of 1207 H ST NE.  Hopefully this repository can be helpful in the future for other DC residents wondering what a zoning change might look like in their neighborhood.
 
+> IMPORTANT: These models are not representative of any real world plans the developer or property owner might have.  They merely represent a structure which which would be allowable under each zone.
 
 ## Process Summary (as I understand it)
 1. Developer requests a Future Land Use Map amendment change for 1207 H Street.  FLUM changes are commonly made by DCOZ, ANCs, Ward leadership and other interested parties.
@@ -24,7 +25,11 @@ The rezoning based on the map amendment would trigger IZ+ zoning so we'll use In
 | Total Height           | 82 feet         | 100.5 feet       |
 
 ## Folder structure
-Each folder represents an example of a potential building under the proposed zoning
+Each folder represents an example of a potential building under the proposed zoning. Each model is broken up into
+- A 14 foot retail floor
+- A residential section which takes up the rest of the base height + overlay
+- A penthouse
+- 2 or 3 mechanical structures
 
 Includes COLLADA files for the models used, KML files referencing the models and the packaged KMZ file.
 ### 1207_H_NE_NC-14 (Current)
@@ -47,7 +52,7 @@ Assumes mechanical structures cannot go on top of the penthouse
 ![NC-15 Zoning Low](1207_H_NE_NC-15_low/1207_H_NE_NC-15_low.png "Rendering of NC-15 Zoning with low mechanical")
 
 ### 1207_H_NE_NC-15_block (Proposed)
-This one is an outlier.  It represents the full allowed height of the zone (98 feet I think) as a polygon for use when you can only use a KML file and not a KMZ file, for example in the web based Google Earth.
+This one is an outlier.  It represents the full allowed height of the zone (100.5 feet I think) as a polygon for use when you can only use a KML file and not a KMZ file, for example in the web based Google Earth.
 
 ![NC-15 Zoning Height](1207_H_NE_NC-15_block/1207_H_ST_NE_NC-15_zone.png "Rendering of NC-15 Zoning full height")
 
