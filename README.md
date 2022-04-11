@@ -100,7 +100,8 @@ for each model, with only one model visible at a time to ensure the same perspec
 
 You can create and animated gif showing the differences between zoning using an ImageMagick command like
 ```bash
-convert -delay 200 -loop 0 1207_H_NE_NC-14/1207_H_NC-14.png 1207_H_NE_NC-15/1207_H_NE_NC-15.png diff.gif
+convert +repage -dispose None -delay 200 -loop 0 1207_H_NE_NC-14/1207_H_NC-14.png 1207_H_NE_NC-15/1207_H_NE_NC-15.png diff.gif
+
 ```
 
 ## References
