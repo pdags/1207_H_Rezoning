@@ -24,6 +24,8 @@ The rezoning based on the map amendment would trigger IZ+ zoning so we'll use In
 | Mechanical (+1 story)  | 15 feet         | 18.5 feet        |
 | Total Height           | 82 feet         | 100.5 feet       |
 
+![Zoning comparison](diff.gif "Visualization of zoning changes")
+
 ## Folder structure
 Each folder represents an example of a potential building under the proposed zoning. Each model is broken up into
 - A 14 foot retail floor
@@ -95,6 +97,11 @@ import -window root -crop 1150x945+550+100 screenshot.png
 ```
 
 for each model, with only one model visible at a time to ensure the same perspective and distance were maintained.
+
+You can create and animated gif showing the differences between zoning using an ImageMagick command like
+```bash
+convert -delay 200 -loop 0 1207_H_NE_NC-14/1207_H_NC-14.png 1207_H_NE_NC-15/1207_H_NE_NC-15.png diff.gif
+```
 
 ## References
 ### Zoning
