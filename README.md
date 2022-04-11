@@ -57,6 +57,12 @@ This one is an outlier.  It represents the full allowed height of the zone (100.
 ![NC-15 Zoning Height](1207_H_NE_NC-15_block/1207_H_ST_NE_NC-15_zone.png "Rendering of NC-15 Zoning full height")
 
 ## Developer Quickstart
+
+### Tools
+- Blender
+- ImageMagick
+- Google Earth Pro
+
 ### Visualizations
 DCOZ has a [really neat 3D mapping tool](https://maps.dcoz.dc.gov/3D/) where you can upload KMZ files.  Sometimes it works, sometimes it doesn't.  Keep retrying; it should work eventually.
 
@@ -80,6 +86,16 @@ zip 1207_H_NE_NC-15.kmz doc.kml files/*
 
 Your kmz file should be updated and ready to visualize
 
+### Screen capture
+To be able to compare the changes in zoning easily, its important to view all models from the same perspective.
+
+The method followed here was to load all KMZ files in Google earth and then use the ImageMagick import tool
+```bash
+import -window root -crop 1150x945+550+100 screenshot.png
+```
+
+for each model, with only one model visible at a time to ensure the same perspective and distance were maintained.
+
 ## References
 ### Zoning
 * NC-14 - https://handbook.dcoz.dc.gov/zones/neighborhood-mixed-use/nc-14/
@@ -95,6 +111,7 @@ Your kmz file should be updated and ready to visualize
 
 ### Development tools and references
 * Blender - https://www.blender.org/
+* Google Earth Pro - https://www.google.com/earth/versions/#earth-pro
 * KML Tutorial - https://developers.google.com/kml/documentation/kml_tut
 * KML Reference - https://developers.google.com/kml/documentation/kmlreference
 * KML Examples - https://developers.google.com/kml/documentation/KML_Samples.kml
@@ -109,6 +126,5 @@ Members of the [ANC 6A Economic Development and Zoning Committee](https://anc6a.
 Additionally, representatives of the DCOZ promptly addressed my questions about the 3D zoning map and where to find the data the map uses. I hope to work with them to make the 3D Zoning Map even better. They, and [Open Data  DC](https://opendata.dc.gov/) have my thanks too!
 
 ## TODO
-- Update KML files to use the same LookAt.  
-- Update images to use the same perspective based on the LookAt
 - Make file naming consistent
+- build pipeline
